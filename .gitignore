@@ -1,0 +1,50 @@
+# ----------------------------
+# Python cache and compiled files
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+
+# ----------------------------
+# Virtual environments
+# ----------------------------
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ----------------------------
+# Test and coverage files
+# ----------------------------
+.coverage
+coverage.xml
+htmlcov/
+.cache/
+.pytest_cache/
+
+# ----------------------------
+# Output and data files
+# ----------------------------
+output/
+*.json
+!shoplink.json          # keep your example raw dataset
+
+# ----------------------------
+# System and IDE files
+# ----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ----------------------------
+# Temporary or backup files
+# ----------------------------
+*.bak
+*.tmp

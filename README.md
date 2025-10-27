@@ -48,10 +48,10 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 
 # run tests
-pytest -v
+python -m pytest tests/
 
 # run the pipeline manually
-python -m order_pipeline.pipeline data/shoplink.json data/shoplink_cleaned.json
+python -m order_pipeline.pipeline data/shoplink.json 
 
  Folder Overview
 order_pipeline/     main pipeline modules
